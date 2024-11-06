@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Vídeos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .video-container {
+            margin-bottom: 20px;
+        }
+        iframe {
+            width: 560px;
+            height: 315px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Catálogo de Vídeos</h1>
+
+    <div class="video-container">
+        <h2>Vídeo 1</h2>
+        <iframe src="https://www.youtube.com/embed/SggDsshWWzE" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-container">
+        <h2>Vídeo 2</h2>
+        <iframe src="https://www.youtube.com/embed/q4Bsb2BdTrc" allowfullscreen></iframe>
+    </div>
+</body>
+</html>
